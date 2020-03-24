@@ -72,8 +72,11 @@ int main()
     }
 
     Array a3 = a1 + a2;
+    Array a4 = a1.operator+(a2);
+    
     a3.printArray();
-
+    a4.printArray();
+    
     return 0;
 
 /*
