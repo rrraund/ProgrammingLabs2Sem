@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Lab4.dir/BaseFigure.cpp.obj"
+  "CMakeFiles/Lab4.dir/Circle.cpp.obj"
+  "CMakeFiles/Lab4.dir/Triangle.cpp.obj"
+  "CMakeFiles/Lab4.dir/main.cpp.obj"
+  "Lab4.exe"
+  "Lab4.exe.manifest"
+  "Lab4.pdb"
+  "libLab4.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Lab4.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
